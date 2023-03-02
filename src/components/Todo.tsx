@@ -7,7 +7,7 @@ export default function Todo() {
     return (
         <>
             <form className="mx-auto box">
-                <div className=" input-group m-3 ">
+                <div className=" input-group mp-3 ">
                     <input
                         type="text"
                         className="form-control"
