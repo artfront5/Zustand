@@ -46,7 +46,7 @@ export const useTodoStore = create<TodoStore>((set, get) => ({
     newTodo: "",
     load: async () => {
         const result = await fetch(
-            "https://jsonplaceholder.typicode.com/todos?_limit=5"
+            "https://jsonplaceholder.typicode.com/todos?_limit=3"
         );
         const json = (await result.json()) as Todo[];
         set({ todos: json });
